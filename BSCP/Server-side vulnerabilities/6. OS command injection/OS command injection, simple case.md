@@ -6,13 +6,13 @@ OS command injection is also known as shell injection. It allows an attacker to 
 
 After you identify an OS command injection vulnerability, it's useful to execute some initial commands to obtain information about the system. Below is a summary of some commands that are useful on Linux and Windows platforms:
 
-|Purpose of command|Linux|Windows|
-|---|---|---|
-|Name of current user|`whoami`|`whoami`|
-|Operating system|`uname -a`|`ver`|
-|Network configuration|`ifconfig`|`ipconfig /all`|
-|Network connections|`netstat -an`|`netstat -an`|
-|Running processes|`ps -ef`|`tasklist`|
+| Purpose of command    | Linux         | Windows         |
+| --------------------- | ------------- | --------------- |
+| Name of current user  | `whoami`      | `whoami`        |
+| Operating system      | `uname -a`    | `ver`           |
+| Network configuration | `ifconfig`    | `ipconfig /all` |
+| Network connections   | `netstat -an` | `netstat -an`   |
+| Running processes     | `ps -ef`      | `tasklist`      |
 
 ## Injecting OS commands
 
@@ -58,5 +58,9 @@ The application executes a shell command containing user-supplied product and st
 
 To solve the lab, execute the `whoami` command to determine the name of the current user.
 
-[  
-](https://portswigger.net/web-security/learning-paths/server-side-vulnerabilities-apprentice/os-command-injection-apprentice/os-command-injection/lab-simple#)
+
+
+![[Pasted image 20250520125758.png]]
+
+![[Pasted image 20250520130012.png]]
+
