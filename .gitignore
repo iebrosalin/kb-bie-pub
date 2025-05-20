@@ -1,0 +1,20 @@
+# Obsidian system files
+.obsidian/cache/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
+.DS_Store
+
+# LiveSync Plugin (if using)
+.obsidian/plugins/obsidian-livesync/data.json
+.obsidian/plugins/obsidian-livesync/*.realm*
+.obsidian/plugins/obsidian-livesync/realms/
+
+# Obsidian Sync (if using)
+.obsidian/sync.json
+
+# Optionally, exclude all of obsidian settings from Git
+# .obsidian/
+
+# Optionally, exclude all of plugin settings from Git
+# .obsidian/plugins
