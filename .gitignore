@@ -14,7 +14,7 @@
 .obsidian/sync.json
 
 # Optionally, exclude all of obsidian settings from Git
-# .obsidian/
+.obsidian/
 
 # Optionally, exclude all of plugin settings from Git
 # .obsidian/plugins
